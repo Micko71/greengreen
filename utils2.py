@@ -6,7 +6,7 @@ from langchain_text_splitters import RecursiveCharacterTextSplitter
 
 #embedding
 from langchain_openai import OpenAIEmbeddings,ChatOpenAI
-from langchain_community.vectorstores.faiss-cpu import FAISS
+from langchain_community.vectorstores.faiss import FAISS
 
 #chains
 from langchain.chains import create_retrieval_chain, create_history_aware_retriever
